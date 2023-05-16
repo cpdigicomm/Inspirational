@@ -1,25 +1,10 @@
-html {
+body {
     background-color: black;
-    
 }
-
 
 h1 {
-    font-family: 'Caveat', cursive;
-    font-family: 'Libre Baskerville', serif;
-    color: white;
     text-transform: uppercase;
-
-}
-
-
-p {
-    color: white;
-    font-style: italic;
-}
-
-#life {
-   text-align: center;
+    font-size: 3rem;
 }
 
 
@@ -28,7 +13,15 @@ img {
     width: 100%;
 }
 
-div {
+.life {
+    color: white;
     width: 50%;
     margin-left: 25%;
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+}
+
+p {
+    font-style: italic;
 }
